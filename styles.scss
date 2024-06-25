@@ -11,6 +11,10 @@ body {
   font-family: Poppins;
 }
 
+h1 {
+  text-align: center;
+}
+
 ul {
   padding: 0;
   list-style-type: none;
@@ -29,8 +33,62 @@ img {
   max-width: 100%;
 }
 
+
+// theme colors
+$primColor: #326DEE;
+$secColor: #1AC888;
+$errColor: #D32752;
+$infoColor: #F6C31C;
+
+// spacing
+$base-padding: 0.75rem;
+$base-margin: 0.75rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+
+
+
+// Styles
 h1 {
-  a {
-    color: red;
-  }
+  color: $primColor;
+
+  margin-bottom: $base-margin;
+}
+
+a {
+  color: $secColor;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: $primColor;
+
+  border-radius: $base-border-radius;
+  padding: $base-padding;
+}
+
+.error {
+  color: $errColor;
+  border-color: $errColor;
+  border-style: solid;
+
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
+
+.notification {
+  color: $secColor;
+  border-color: $secColor;
+  border-style: solid;
+
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
 }

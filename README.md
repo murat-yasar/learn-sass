@@ -1,5 +1,5 @@
 # Learn Sass
-I'm learning Sass and here is my playground. You can find the tutorials through (Net Ninja)[https://www.youtube.com/@NetNinja] youtube channel.
+I'm learning Sass and here is my playground. You can find the tutorials through [Net Ninja](https://www.youtube.com/@NetNinja) youtube channel.
 
 
 ## Installation
