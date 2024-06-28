@@ -1,0 +1,36 @@
+h1 {
+  color: $primColor;
+  
+  margin-bottom: $base-margin;
+}
+a {
+  color: $secColor;
+}
+button {
+  color: white;
+  border: 0;
+  background: $primColor;
+
+  border-radius: $base-border-radius;
+  padding: $base-padding;
+}
+.error {
+  color: $errColor;
+  border-color: $errColor;
+  border-style: solid;
+
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
+.notification {
+  color: $secColor;
+  border-color: $secColor;
+  border-style: solid;
+
+  margin: $base-margin;
+  padding: $base-padding;
+  border-radius: $base-border-radius;
+  border-width: $base-border-thickness;
+}
